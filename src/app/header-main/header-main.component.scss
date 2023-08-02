@@ -8,22 +8,52 @@
     
 }
 .logo-box{
-    //border: 5px solid orange;
+   // border: 5px solid orange;
     display: flex;
-   ;
+   
    
 }
 .logo{
     max-width: 130px;
     padding-left: 20px;
 }
-.nome-logo-slogan{
-    //border: 5px solid purple;
-    color: white;
+.insegna{
+    //border: 5px solid green;
+    display: flex;
+    flex-direction: column;
     margin-left: 20px;
-    margin-top: 45px;
-    //font-family: ;
+    margin-top: 30px;
+   // width: 460px;
+
 }
+.nome-logo-slogan1{
+   // border: 5px solid purple;
+    color: white;
+    font-size: xxx-large;
+    
+}
+.nome-logo-slogan2{
+    // border: 5px solid purple;
+     color: white;
+     // font-size: xx-large;
+     
+ }
+
+@media screen and (max-width: 1290px){
+    .nome-logo-slogan1{
+        // border: 5px solid purple;
+         color: white;
+         font-size: xx-large;
+         
+     }
+     .nome-logo-slogan2{
+         // border: 5px solid purple;
+          color: white;
+          font-size: small;
+          
+      }
+}
+
 .storia-btn{
     border: 1px solid black;
     // border-radius: 60%;
@@ -51,6 +81,9 @@
     align-items: center;
    justify-content: space-around;
    padding-right: 100px;
+}
+.img-negozio{
+    max-width: 100%;
 }
 
 
